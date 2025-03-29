@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #d6e2f0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+main .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: #ffffff;
+    margin-top: auto;
+    border-radius: 8px;
+    margin: 150px 0 20px 0;
+    padding: 15px 10px 30px 10px;
+}
+
+main .card .qr {
+    padding-bottom: 10px;
+}
+main .card .qr img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+main .card .text {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    text-align: center;
+}
+
+
+main .card .text h1{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+main .card .text h1 span{
+    display: block;
+}
+
+main .card .text .p2 span{
+    display: block;
+}
+
+@media screen and (max-width: 420px) {
+    
+
+    
+}
